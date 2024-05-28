@@ -3,60 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Hiteksha | Web Developer</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>I am Hiteksha Thaker</h1>
-        <p>A student by profession </p>
+        <div class="container">
+            <h1>Hiteksha Thaker</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <img src="hitekshaportal.jpg" alt="Your Name">
-        <p>I am a student pursuing my btech in 3rd year and currently doing my internship in codsoft.</p>
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>c++</li>
-            <li>javascript</li>
-            <li>php</li>
-            <!-- Add more skills as needed -->
-        </ul>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>fueldesk</h3>
-            <!-- <img src="project-image1.jpg" alt="Project Title 1"> -->
-            <p>billing dashborad in php.</p>
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hi, I'm Hiteksha Thaker, a passionate web developer.</p>
+            <a href="#about" class="btn">Learn More</a>
         </div>
-        <div class="project">
-            <h3>Weather app</h3>
-            <!-- <img src="project-image2.jpg" alt="Project Title 2"> -->
-            <p>weather app in javascript.</p>
+    </section>
+
+    <section id="about" class="content-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a web developer with 2 years of experience in creating dynamic and responsive websites. 
+                My expertise lies in HTML, CSS, JavaScript, and React. I love building websites that are user-friendly and visually appealing.</p>
         </div>
-        <!-- Add more projects as needed -->
     </section>
 
-    <section id="resume">
-        <h2>Resume</h2>
-        <a href="resume_hiteksha thaker (1).pdf" download>Download My Resume</a>
+    <section id="services" class="content-section">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="row">
+                <div class="column">
+                    <h3>Web Development</h3>
+                    <p>Creating modern and responsive websites using the latest technologies.</p>
+                </div>
+                <div class="column">
+                    <h3>UI/UX Design</h3>
+                    <p>Designing intuitive and engaging user interfaces for a seamless experience.</p>
+                </div>
+                <!-- <div class="column">
+                    <h3>SEO Optimization</h3>
+                    <p>Improving website visibility on search engines to drive more traffic.</p>
+                </div> -->
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: hitekshathaker119@gmail.com</p>
-        <!-- <p>Phone: </p> -->
+    <section id="portfolio" class="content-section">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="row">
+                <div class="column">
+                    <!-- <img src="project1.jpg" alt="Project 1"> -->
+                    <h3>E-commerce Website</h3>
+                    <p>Developed a fully functional e-commerce website with payment integration.</p>
+                </div>
+                <div class="column">
+                    <!-- <img src="project2.jpg" alt="Project 2"> -->
+                    <h3>Portfolio Website</h3>
+                    <p>Created a personal portfolio website to showcase my projects and skills.</p>
+                </div>
+                <div class="column">
+                    <!-- <img src="project3.jpg" alt="Project 3"> -->
+                    <h3>Weather App</h3>
+                    <p>Built a weather app in JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="content-section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: hitekshathaker119@gmail.com</p>
+            <!-- <p>Phone: </p> -->
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Hiteksha Thaker. All rights reserved.</p>
-        <!-- Add additional links or information if needed -->
+        <div class="container">
+            <p>&copy; 2024 Hiteksha Thaker. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
